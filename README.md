@@ -12,6 +12,14 @@ strings in the `info.plist` file.
 > Note that on Android, this does not guarantee connection to Internet. For instance,
 the app might have wifi access but it might be a VPN or a hotel WiFi with no access.
 
+In order to add it to your project, use the following:
+
+```yaml
+connectivity:
+    git:
+      url: https://github.com/Vanethos/simple_connectivity.git
+```
+
 ## Usage
 
 Sample usage to check current status:
