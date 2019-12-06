@@ -1,4 +1,4 @@
-name: simple_connectivity
+name: connectivity
 description: Flutter plugin for discovering the state of the network (WiFi &
   mobile/cellular) connectivity on Android and iOS.
 author: Flutter Team <flutter-dev@googlegroups.com>, Gonçalo Palma <solid.goncalo@gmail.com>
