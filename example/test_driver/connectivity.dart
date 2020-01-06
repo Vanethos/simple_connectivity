@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter_driver/driver_extension.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:connectivity/connectivity.dart';
+import 'package:simple_connectivity/simple_connectivity.dart';
 
 void main() {
   final Completer<String> completer = Completer<String>();

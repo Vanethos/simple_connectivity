@@ -6,19 +6,8 @@
 
 #import "Reachability/Reachability.h"
 
-#import <CoreLocation/CoreLocation.h>
-#import "FLTConnectivityLocationHandler.h"
 #import "SystemConfiguration/CaptiveNetwork.h"
 
-#include <ifaddrs.h>
-
-#include <arpa/inet.h>
-
-@interface FLTConnectivityPlugin () <FlutterStreamHandler, CLLocationManagerDelegate>
-
-@property(strong, nonatomic) FLTConnectivityLocationHandler* locationHandler;
-
-@end
 
 @implementation FLTConnectivityPlugin {
   FlutterEventSink _eventSink;
