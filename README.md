@@ -1,24 +1,20 @@
 # simple_connectivity
 
+**NOTICE** : This plugin is a fork of the [connectivity](https://pub.dev/packages/connectivity) using 
+the same source code and functionality. The only difference between the two packages is that `simple_connectivity`
+does not require the user to add the `NSLocationWhenInUseUsageDescription` and `NSLocationAlwaysUsageDescription`
+ strings in the `info.plist` file since all location-aware code has been removed from the plugin.
+ 
+For more information please go to the [official github repo for the connectivity plugin](https://github.com/flutter/plugins/tree/master/packages/connectivity)
+
 This plugin allows Flutter apps to discover network connectivity and configure
 themselves accordingly. It can distinguish between cellular vs WiFi connection.
 This plugin works for iOS and Android.
 
-It is different from the [connectivity](https://pub.dev/packages/connectivity) due to the fact that
-the package does not allow us to retrieve any information from the network. This results in the 
-iOS apps not needing to add the `NSLocationWhenInUseUsageDescription` and `NSLocationAlwaysUsageDescription`
-strings in the `info.plist` file.
  
 > Note that on Android, this does not guarantee connection to Internet. For instance,
 the app might have wifi access but it might be a VPN or a hotel WiFi with no access.
 
-In order to add it to your project, use the following:
-
-```yaml
-connectivity:
-    git:
-      url: https://github.com/Vanethos/simple_connectivity.git
-```
 
 ## Usage
 
