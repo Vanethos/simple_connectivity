@@ -2,12 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#import "ConnectivityPlugin.h"
+#import "FLTConnectivityPlugin.h"
 
 #import "Reachability/Reachability.h"
 
 #import "SystemConfiguration/CaptiveNetwork.h"
 
+@interface FLTConnectivityPlugin () <FlutterStreamHandler>
+
+@end
 
 @implementation FLTConnectivityPlugin {
   FlutterEventSink _eventSink;
@@ -24,6 +27,7 @@
   FlutterEventChannel* streamChannel =
       [FlutterEventChannel eventChannelWithName:@"plugins.flutter.io/connectivity_status"
                                 binaryMessenger:[registrar messenger]];
+    
   [streamChannel setStreamHandler:instance];
 }
 

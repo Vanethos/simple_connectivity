@@ -6,7 +6,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:simple_connectivity/connectivity.dart';
+import 'package:simple_connectivity/simple_connectivity.dart';
 
 void main() {
   runApp(MyApp());
