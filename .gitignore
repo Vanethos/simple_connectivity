@@ -4,11 +4,11 @@
 *.log
 *.pyc
 *.swp
-    .DS_Store
-    .atom/
-    .buildlog/
-    .history
-    .svn/
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
 coverage/
 test/.test_coverage.dart
 
@@ -16,18 +16,18 @@ test/.test_coverage.dart
 *.iml
 *.ipr
 *.iws
-    .idea/
+.idea/
 
 # Visual Studio Code related
-    .vscode/
+.vscode/
 
 # Flutter/Dart/Pub related
 **/doc/api/
-    .dart_tool/
-    .flutter-plugins
-    .packages
-    .pub-cache/
-    .pub/
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
 build/
 
 # Android related
